@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Source+Code+Pro:ital,wght@0,300;1,400&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1: 'Roboto', sans-serif;
+    /* font-family:'Roboto',sans-serif; */
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+.my-2{
+    margin: 12px;
+    margin-bottom: 12px;
+}
+
+.font1 {
+    font-family: var(--font1);
+
+}
+
+.font2 {
+    font-family: var(--font1);
+}
+
+.btn {
+    padding: 8px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: black;
+    background: red;
+}
+
+.form-control {}
+
+.form-input {
+    padding: 8px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+.form-box input,textarea{
+width: 50vw;
+padding: 20px,12px;
+margin: 7px 0;
+}

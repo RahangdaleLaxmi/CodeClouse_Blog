@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Source+Code+Pro:ital,wght@0,300;1,400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Source+Code+Pro:ital,wght@0,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.sidebar{
+    background-color:gainsboro;
+    width: 20vw;
+    font-family: 'Bona Nova', serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 42px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 15px; 
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    margin-top: 40%;
+    /* background-color:aqua; */
+    height: 58vh;
+    width: 60vw;
+    margin: 144px auto;
+    display: flex;
+justify-content: space-around;
+
+}
+.devInfo{
+    /* margin-left: 50px; */
+    /* margin-top: 20px; */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Source Code Pro', monospace;
+
+}
+.hello{
+font-size: 50px;
+
+}
+.name{
+font-size: 35px;
+/* font-weight: bold; */
+font-family: 'Bona Nova', serif;
+}
+.about{
+font-size: 30px;
+font-family: 'Bona Nova', serif;
+}
+.moreabout{
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Bona Nova', serif;
+}
+.buttons{
+    margin-top:25px ;
+}
+.buttons button{
+padding: 9px 14px;
+border-radius: 22px;
+color: wheat;
+/* background-color: ; */
+background-color: rgba(0, 206, 209, 0.495);
+/* background-color: rgba(0, 255, 255, 0.317); */
+font-weight: bold;
+font-size: 21px;
+margin: 0 3 px;
+}
+.buttons button:hover{
+    background-color: white;
+    color: darkturquoise;
+    /* color: rgba(0, 255, 255, 0.317) ; */
+}
+.devPic img{
+    /* margin-left: 170px; */
+    /* flex-direction: column; */
+    height:58vh;
+    width: 20vw;
+    /* justify-content: space-around; */
+     
+}
+.contactform{
+    font-family: 'Bona Nova', serif;
+    padding-top:34px ;
+    padding: 0 34px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+/* text-align: center; */
+padding: 12px 0;
+}
+.contactform  form div{
+    padding: 17px 0;
+    display: flex;
+    flex-direction: column;
+}
+/* #emailHelp{
+font-size: 12px;
+color: black;
+margin: 0 3px;
+padding: 2px;
+}*/
+.contactform  form div input{
+   width: 26vw;
+   border-radius: 5px;
+   margin: 6px  0 0 0;
+   padding: 3px;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+width: 24px;
+margin: 3px 0;
+}
+.blogitem {
+margin: 20px;
+font-family: 'Bona Nova', serif;
+}
+.blogContainer h1{
+    font-family: 'Bona Nova', serif;
+    margin: 23px;
+}
+.blogitem p{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro h2{
+    font-family: 'Bona Nova', serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Bona Nova', serif;
+    margin: 12px;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+align-items: center;
+font-family: 'Source Code Pro', monospace;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundered{
+    width: 265px;
+    background-color: darkblue;
+}
+.fifty{
+    width: 125px;
+    background-color: yellow;
+}
+.t5{
+    width: 75px;
+    background-color: aqua;
+}
+/* @media (max-width:1615px){
+    *{
+        /* background-color: red; 
+    }
+    .sidebar{
+        transform: translate(-443px,0px);
+    
+    position:absolute;
+}} */
